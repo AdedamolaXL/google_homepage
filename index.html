@@ -7,13 +7,13 @@
      margin: 0;
     }
     body {
-     background: rgb(139, 136, 136);
+     background: ;
      color: #222;
      font-family: Arial, Helvetica, sans-serif ; 
      font-size: small;
     }
     #page-wrapper {
-     position: fixed;  
+       
     }
     img {
      padding: 69px 2px 25px 330px;
@@ -25,6 +25,24 @@
      position: fixed;
      top: 0;
      right: 0; 
+    }
+    #search {
+     width: 700px; 
+     margin: 30px 10px 20px 90px;
+     border: 6px solid #dfe1e5; 
+     border-radius: 19px; 
+     height: 22px; 
+    }
+    #submit {
+     margin: 1px 410px 10px
+    }
+    p {
+      margin: 9px 359px 50px 359px;
+    } 
+    footer { 
+     position: fixed;
+     bottom: 0;
+     left: 0;
     }
    </style>
   </head>
@@ -53,11 +71,10 @@
     </header>
     <form id="search-form">
      <div class="form-group">
-      <label id="search-label">Search:</label>
        <input id="search" required>  
      </div> 
      <div class="form-group">
-      <button type="submit">Google Search</button>     
+      <button id="submit" type="submit">Google Search</button>     
      </div> 
     </form> 
     <p>
@@ -66,15 +83,15 @@
     </p>  
     <footer>
      <ul>
-      <li>
+      <i>
         <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj6uNTcsuPqAhVQqxoKHa7sDGoQ8awCCBQ&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Den-NG%26fg%3D1&usg=AOvVaw0N1Zi2bCM41yPJwczZ5dFQ"target="_blank">Privacy</a>  
-      </li>   
-      <li>
+      </i>   
+      <i>
        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj6uNTcsuPqAhVQqxoKHa7sDGoQ8qwCCBU&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Den-NG%26fg%3D1&usg=AOvVaw1zugHefvD7yNj6ufZwyE0U"target="_blank">Terms</a>   
-      </li>
-      <li>
+      </i>
+      <i>
        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj6uNTcsuPqAhVQqxoKHa7sDGoQzq0CCBY&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Den&usg=AOvVaw0XvhSqpc_GFt9aG_mRLp1F"target="_blank">Settings</a>   
-      </li>
+      </i>
      </ul>   
     </footer>   
    </div>   
